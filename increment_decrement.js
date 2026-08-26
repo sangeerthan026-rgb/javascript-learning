@@ -1,0 +1,17 @@
+/**
+ * pre increment  => ++variable
+ * post increment => varable++
+ * pre decrement  => --variable
+ * post decrement => variable--
+ **/
+
+let i = 3;
+
+console.log("i====>",i++)    // post-increment
+console.log("i=====>",i)
+console.log("i======>",++i)  // pre-increment
+console.log("i======>",i)
+console.log("i======>",i--) // post-decrement
+console.log("i=====>",i)
+console.log("i======>",--i)     // pre-decrement
+console.log("i=====>",i)
