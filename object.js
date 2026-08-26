@@ -1,6 +1,6 @@
 let stsudentDetails = {
-    "name": "manoj",
-    "age": 25,
+    "name": "sangeeth",
+    "age": 23,
     "qualification": "B.E",
     "salary": 50000.25,
     "company": "Infosys"        
@@ -12,8 +12,8 @@ let stsudentDetails = {
 // console.log("Student Details =====>",stsudentDetails.salary)
 
 const employeeDetails = {
-    name: "ajith",
-    age: 27,
+    name: "hari",
+    age: 22,
     address: {
     tempAddress: "No. 456, Park Avenue, City, State, ZIP",
     PaymentAddress: "No. 123, Main Street, City, State, ZIP",
