@@ -4,4 +4,4 @@ const addition = function(a,b){
 
 }
 let result = addition (10,5);
-console.log("result===>",result);
+console.log("Result===>",result);
