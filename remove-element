@@ -1,0 +1,14 @@
+let arr = ["apple","orange"]
+
+
+arr.pop()
+
+console.log("After poped====>",arr)
+
+
+
+let arr2 = ["sangeeth","srini","kandeesh","hari"]
+
+arr2.shift()
+
+console.log("After shifted====>",arr2)
