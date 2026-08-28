@@ -10,7 +10,7 @@ console.log(greaterthen500)
 let array = [5,5,5,5,100,50,4,4,9,6]
 let uniqueArr = array.filter(
     (value,index,arr)=>{
-        reurn arr.indexOf(value)==index
+        return arr.indexOf(value)==index
 
     }
 )
