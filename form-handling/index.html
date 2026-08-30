@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title> Form Validatio</title>
+    </head>
+    <body>
+
+        <form novalidate onsubmit="formValidate(event)">
+
+            <div>
+                <lable for="username">
+                    <span>Enter user name </span>
+                    <span style="color:red">*</span>
+                </lable>
+                 <input type="text" id="username" name="username" required>
+            <div id="username_error" style="color:red"></div>
+        </div>
+
+        <div>
+            <button type="submit">Register</button>
+        </div>
+    </form>
+    <script src="./index.js"></script>
+    </body>
+</html>
